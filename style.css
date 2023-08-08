@@ -22,7 +22,7 @@ body {
 
 .container {
     height: 100vh;
-    
+    display: grid;
 }
 
 .container_botao{
@@ -30,5 +30,5 @@ body {
     border-radius: 1em;
     padding: 1em;
     color:var(--branco-principal);
-    
+    display: block;
 }
