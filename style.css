@@ -3,6 +3,7 @@
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
+    --botao-azul-efeito: #3c92fa;
 }
 
 body {
@@ -128,11 +129,16 @@ body {
 }
 
 .lista__link a :hover{
-
+    color: var(--botao-azul);
 }
 
 .lista__link a :active{
-    
+    color: purple;
+}
+
+.container_botao :hover{
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
 }
 
 .rodape__texto{
