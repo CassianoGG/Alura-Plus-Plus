@@ -128,15 +128,15 @@ body {
     margin-left: 1em;
 }
 
-.lista__link a :hover{
+.lista__link a:hover{
     color: var(--botao-azul);
 }
 
-.lista__link a :active{
+.lista__link a:active{
     color: purple;
 }
 
-.container_botao :hover{
+.container_botao:hover{
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
 }
